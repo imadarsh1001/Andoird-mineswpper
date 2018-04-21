@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\asp_l\AndroidStudioProjects\MinesweeperO\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="719957e313c7d99e7df9fe6d54ac5318103ea8f1">
+        <dex dex="C:\Users\asp_l\AndroidStudioProjects\MinesweeperO\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9441e47aada7af74d3216390bd4f95cbf31371b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\asp_l\AndroidStudioProjects\MinesweeperO\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\asp_l\AndroidStudioProjects\MinesweeperO\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bcba1c0eae7e72b369766cd9715d50cdb5863c9c\classes.dex" />
+    </item>
+
+</items>

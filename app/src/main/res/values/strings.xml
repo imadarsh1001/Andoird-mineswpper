@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="smile">(^_^)</string>
+    <string name="accept">Accept</string>
+    <string name="action_settings">Settings</string>
+    <string name="decline">Decline</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="medium">Medium</string>
+    <string name="new_game">New Game</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+
+</resources>

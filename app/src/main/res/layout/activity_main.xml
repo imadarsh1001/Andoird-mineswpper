@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root"
+    android:background="#ffc0c0c0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@id/statusbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_old"
+        android:padding="4.0dip">
+
+        <com.noobtalks.minesweepero.views.statusbar.BombCounterView
+            android:id="@id/bombCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55.0dip"
+            android:background="@android:color/black"
+            android:padding="2.0dip"
+            android:textColor="?android:attr/colorPressedHighlight"
+            android:textSize="40.0sp" />
+
+        <com.noobtalks.minesweepero.views.statusbar.GameStatusButton
+            android:id="@id/gameStatusButton"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="5.0dip"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:padding="0.0dip" />
+
+        <com.noobtalks.minesweepero.views.statusbar.TimeCounterView
+            android:id="@id/timecounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="55.0dip"
+            android:background="@android:color/black"
+            android:padding="2.0dip"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="40.0sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_action_navigation_more_vert"
+            android:onClick="showPopup"
+            android:padding="2.0dip" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/gridContainer"
+        android:background="@drawable/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusbar">
+        <com.noobtalks.minesweepero.views.grid.Grid
+            android:id="@id/mineSweeperGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+        </com.noobtalks.minesweepero.views.grid.Grid>
+    </RelativeLayout>
+</RelativeLayout>
